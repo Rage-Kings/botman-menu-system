@@ -16,6 +16,7 @@ class MenuTest extends TestCase
         parent::setUp();
 
         $this->conversation = new TestConversation();
+        $this->conversation->buildMenu();
     }
 
     public function test_resolve_menu(): void

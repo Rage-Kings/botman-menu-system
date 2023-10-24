@@ -28,7 +28,9 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\BotMan\\Menu\\": "tests/"
+            "Tests\\BotMan\\Menu\\Unit\\": "tests/Unit",
+            "Tests\\BotMan\\Menu\\Fixtures\\": "tests/Fixtures",
+            "Tests\\BotMan\\Menu\\Feature\\": "tests/Feature"
         }
     },
     "scripts": {
